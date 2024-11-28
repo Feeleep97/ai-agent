@@ -1,0 +1,70 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependency directories
+node_modules/
+.pnp/
+.pnp.js
+
+# Next.js
+.next/
+out/
+build/
+
+# Testing
+coverage/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Parcel-bundler cache (https://parceljs.org/)
+.cache
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Package lock files (if you're not using lock files, remove the corresponding lines)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Optional npm cache directory
+.npm/
+
+# Static build artifacts
+static/
+
+# Generated code
+dist/
+
+# Miscellaneous
+*.bak
+*.tmp
+
+# Temporary files
+*.temp
+*.log
+*.gz
+*.zip
+
+# Ignore macOS resource forks
+._*
+
+# Ignore compiled TypeScript files (if applicable)
+*.tsbuildinfo
